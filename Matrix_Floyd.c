@@ -12,7 +12,7 @@
 #include <string.h>
 
 #define MAX_MATRIX_NUMBER 100
-#define INF 32767
+#define INF 32768
 
 int main()
 {
@@ -63,7 +63,7 @@ int main()
 		for(j=0;j<node_count;j++)
 		{
 			Distance[i][j]=edge[i][j];
-				printf("%d ",Distance[i][j]);
+				printf(" %d ",Distance[i][j]);
 			for(k=0;k<node_count;k++)
 				if(Distance[i][j]>0)
 				{
